@@ -23,8 +23,8 @@ PRODUCT_CHARACTERISTICS := phone
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=lge_p506 \
-    BUILD_FINGERPRINT="lge/thunderg/thunderg:4.2.1/JOP40D/LG-P506-V11f.19E55B0D28:user/release-keys" \
-    PRIVATE_BUILD_DESC="thunderg-user 4.2.1 JOP40D LG-P506-V11f.19E55B0D28 release-keys"
+    BUILD_FINGERPRINT="lge/thunderg/thunderg:2.3.3/GRJ22/LG-P506-V11f.19E55B0D28:user/release-keys" \
+    PRIVATE_BUILD_DESC="thunderg-user 2.3.3 GRJ22 LG-P506-V11f.19E55B0D28 release-keys"
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := OptimusThrive
