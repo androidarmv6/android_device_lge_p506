@@ -18,6 +18,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.p506.rc:root/init.p506.rc \
     $(LOCAL_PATH)/ueventd.p506.rc:root/ueventd.p506.rc
+    
+# P506 bluetooth vendor configuration
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
 
 # p506 Audio
 PRODUCT_PACKAGES += \
