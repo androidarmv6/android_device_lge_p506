@@ -61,7 +61,6 @@ PRODUCT_DEVICE := p506
 PRODUCT_MODEL := LG-P506
 PRODUCT_MANUFACTURER := LGE
 
-PRODUCT_AAPT_CONFIG := normal mdpi
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 $(call inherit-product, device/mdpi-common/mdpi.mk)
 
