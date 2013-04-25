@@ -45,11 +45,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
 
-# p506 Audio
-PRODUCT_PACKAGES += \
-    audio_policy.p506 \
-    audio.primary.p506
-
 #P500_SPEAKER_IN_CALL_FIX
 PRODUCT_COPY_FILES += $(LOCAL_PATH)/configs/audio_policy.conf:system/etc/audio_policy.conf
 
