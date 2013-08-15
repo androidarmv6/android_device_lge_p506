@@ -11,7 +11,8 @@ PRODUCT_COPY_FILES += \
 # p506 init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.p506.rc:root/init.p506.rc \
-    $(LOCAL_PATH)/ueventd.p506.rc:root/ueventd.p506.rc
+    $(LOCAL_PATH)/ueventd.p506.rc:root/ueventd.p506.rc \
+    $(LOCAL_PATH)/fstab.p506:root/fstab.p506
 
 # fm radio
 PRODUCT_PACKAGES += \
