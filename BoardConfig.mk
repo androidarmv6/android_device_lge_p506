@@ -3,7 +3,6 @@
 
 TARGET_BOOTLOADER_BOARD_NAME    := p506
 TARGET_OTA_ASSERT_DEVICE        := thunderg,p506
-TARGET_RECOVERY_FSTAB           := device/lge/p506/fstab.p506
 BOARD_KERNEL_CMDLINE            := mem=471M console=ttyMSM2,115200n8 androidboot.hardware=p506 no_console_suspend
 
 ifneq (eng,$(TARGET_BUILD_VARIANT))
@@ -13,7 +12,7 @@ BOARD_CHARGING_CMDLINE_NAME         := "lge.reboot"
 BOARD_CHARGING_CMDLINE_VALUE        := "pwroff"
 else
 # Real recovery size 0x00500000. Use lzma.
-TARGET_KERNEL_CONFIG                := cyanogenmod_p505_p506_defconfig
+TARGET_KERNEL_CONFIG                := cyanogenmod_p505_p506_recovery_defconfig
 BOARD_RECOVERYIMAGE_PARTITION_SIZE  := 5242880
 MINIGZIP                            := $(shell which lzma)
 endif
